@@ -10,8 +10,8 @@ app=Flask(__name__)
 
 app.config["SECRET_KEY"]="mykey"
 
-blueprint=make_google_blueprint(client_id='91961509858-1kcnmdqbr3p336e1rsrc32k45ftun1vl.apps.googleusercontent.com',
-                                client_secret='huFrrBm3-knROX5nSixoPrub',
+blueprint=make_google_blueprint(client_id='',
+                                client_secret='',
                                 offline=True,
                                 scope=["profile","email"])
 
